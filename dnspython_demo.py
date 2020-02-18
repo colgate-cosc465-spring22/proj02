@@ -86,7 +86,7 @@ def issue_query(domain, ns_ip, client_network=None):
     
 def main():
     # Query recursive resolver for www.colgate.edu
-    RECURSIVE_RESOLVER = '149.43.80.9'
+    RECURSIVE_RESOLVER = '149.43.80.12'
     issue_query('www.colgate.edu', RECURSIVE_RESOLVER)
 
     # Query Google name server for www.google.com
